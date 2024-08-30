@@ -1,0 +1,148 @@
+body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.center {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.thanhmenu{
+    backgrouNd-color: #393a44;
+    height: 55px;
+    display: block;
+}
+li#danhmucsp {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    height: 51px;
+    padding-top: 4px;
+    width: 271px;
+    background-color: #ffba00;
+    display: inline-block;
+    position: relative;
+}
+ul.menu {
+    display: inline-block;
+    color: #fff;
+    list-style: none;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -39px;
+}
+ul.menu li#m {
+    display: inline-block;
+    margin-left: 39px;
+}
+ul.menu li#m a {
+    color: #fff;
+    text-decoration: none;
+}
+ul.menu li#m a:hover {
+    color: rgb(24, 158, 255);
+    text-decoration: none;
+}
+ul.dssp {
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    color:#444;
+    background-color: white;
+    top: 55px;
+    padding-left: 0;
+    display: none;
+    z-index: 10;
+}
+ul.dssp li {
+    display: block;
+    padding: 10px 0 10px 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+ul.dssp li#n a {
+    color: #444;
+    text-decoration: none;
+}
+ul.dssp li#n:hover {
+    color: #fff;
+    background-color: rgb(24, 158, 255);
+}
+ul.dssp li#n {
+    font-size: 14px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 16px;
+    padding-bottom: 15px;
+}
+#danhmucsp:hover .dssp {
+    display: block;
+}
+nav{
+	background-color: #f4f4f4;
+	padding: 10px;
+	text-align: center;
+}
+nav a{
+	text-decoration: none;
+	color: #333;
+	padding: 5px;
+	margin 0 5px;
+}
+.navbar{
+	background-color: #fff;
+}
+.navbar nav a:hover{
+	background-color: #555;
+	color: #fff;
+}
+.navbar nav a:active{
+	background-color: #777;
+	
+}
+section{
+	padding: 20px;
+}
+.product{
+	background-color: #fff;
+	text-align: center;
+}
+.product img{
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	text-align: center;
+}
+button{
+	margin: 10px;
+	padding: 10px;
+}
+.but {
+	background-color: #fff;
+	border: 2px solid red;
+}
+.but a{
+	text-decoration: none;
+	color: red;
+}
+.nut a{
+	text-decoration: none;
+	color: #00ff00;
+}
+.nut{
+	background-color: #fff;
+	border: 2px solid #00ff00;
+}
+footer{
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
